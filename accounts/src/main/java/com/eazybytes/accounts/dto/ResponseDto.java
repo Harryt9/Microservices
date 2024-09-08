@@ -1,24 +1,27 @@
 package com.eazybytes.accounts.dto;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @Data
+@Schema(
+        name = "Response",
+        description = "Schema to hold successful response information"
+)
 @AllArgsConstructor
 @RequiredArgsConstructor
 public class ResponseDto {
 
-	
-
+		@Schema(
+            description = "Status code in the response"
+				)
 		private String StatusCode;
 		
+		@Schema(
+	            description = "Status message in the response"
+	    )
 		private String statusMsg;
 		
-		
-//		public ResponseDto(String status201, String message201) {
-//			// TODO Auto-generated constructor stub
-//			StatusCode = status201;
-//			statusMsg = message201;
-//		}
 }
