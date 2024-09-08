@@ -1,0 +1,5 @@
+package com.easybytes.cards.entity;
+
+public class BaseEntity {
+
+}

@@ -1,0 +1,5 @@
+package com.easybytes.cards.repository;
+
+public class CardsRepository {
+
+}

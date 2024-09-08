@@ -1,0 +1,5 @@
+package com.eazybytes.cards.Dto;
+
+public class EroorResponseDto {
+
+}

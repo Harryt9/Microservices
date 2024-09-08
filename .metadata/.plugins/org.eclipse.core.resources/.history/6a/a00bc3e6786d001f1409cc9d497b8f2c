@@ -1,0 +1,5 @@
+package com.easybytes.cards.Dto;
+
+public class ResponseDto {
+
+}
